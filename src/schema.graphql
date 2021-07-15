@@ -22,7 +22,7 @@ input UpdateTodoInput {
 input CreateTodoInput {
   title: String!
   description: String!
-  createTime: String!
+  createAt: String!
   deadline: String!
   createdBy: ID!
 }
@@ -39,7 +39,7 @@ type Todo {
   id: ID!
   title: String!
   description: String!
-  createTime: String!
+  createAt: String!
   deadline: String!
   createdBy: User!
 }
